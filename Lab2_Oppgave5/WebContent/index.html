@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab2_Oppgave5</title>
+</head>
+<body>
+
+<form action=veksling>
+	<fieldset>
+		<legend>Valutakurser</legend>
+			<p>Beløp: <input type="text" name="belop">
+				<select name="innvaluta">
+					<option value="NOK" selected="selected">NOK</option>
+					<option value="EUR">EUR</option>
+					<option value="USD">USD</option>
+					<option value="GBP">GBP</option>
+					<option value="SEK">SEK</option>
+					<option value="DKK">DKK</option>
+				</select>
+			</p>
+			<p>Skal veksle til:
+					<select name="utvaluta">
+					<option value="NOK">NOK</option>
+					<option value="EUR" selected="selected">EUR</option>
+					<option value="USD">USD</option>
+					<option value="GBP">GBP</option>
+					<option value="SEK">SEK</option>
+					<option value="DKK">DKK</option>
+				</select>
+			</p>
+			<p><input type = "submit" value = "beregn"></p>
+	</fieldset>
+</form>
+
+</body>
+</html>
